@@ -1,0 +1,21 @@
+---
+
+- name: Install XRDP packages
+  ansible.builtin.package:
+    name: "{{ xrdp_packages }}"
+    state: present
+
+- name: Enable XRDP using systemd
+  ansible.builtin.service:
+    name: xrdp
+    enabled: true
+    state: started
+
+- name: Open RDP port
+  ansible.builtin.include_role:
+    name: deitkrachten.firewall
+  vars:
+    firewall_ports:
+      - port: '3389'
+        proto: tcp
+  when: xrdp_firewall | bool
