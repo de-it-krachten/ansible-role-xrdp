@@ -1,0 +1,8 @@
+---
+
+# List of packages
+xrdp_packages:
+  - xrdp
+
+# Open RDP port on firewall
+xrdp_firewall: false
