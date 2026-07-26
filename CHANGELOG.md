@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/de-it-krachten/ansible-role-xrdp/compare/v1.1.0...v1.2.0) (2026-07-26)
+
+
+### Features
+
+* Added support for Fedora 44 ([9a7aebe](https://github.com/de-it-krachten/ansible-role-xrdp/commit/9a7aebef0bff1743f3367926c535136e715f70da))
+* Added support for Ubuntu 26.04 LTS ([61c43a7](https://github.com/de-it-krachten/ansible-role-xrdp/commit/61c43a76626952297f379c998526daf06ec7af3c))
+* Drop support for Fedora 42 ([d5234f3](https://github.com/de-it-krachten/ansible-role-xrdp/commit/d5234f305fce304959958054fdde79faf068baf1))
+
 # [1.1.0](https://github.com/de-it-krachten/ansible-role-xrdp/compare/v1.0.0...v1.1.0) (2026-03-15)
 
 
