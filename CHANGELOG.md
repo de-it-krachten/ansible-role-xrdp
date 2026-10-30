@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/de-it-krachten/ansible-role-xrdp/compare/v1.2.0...v1.3.0) (2026-10-30)
+
+
+### Features
+
+* Drop support for Debian 11 (Bullseye) ([2791ed2](https://github.com/de-it-krachten/ansible-role-xrdp/commit/2791ed2f76170e13c43859bcd8ffb52a96398a78))
+
 # [1.2.0](https://github.com/de-it-krachten/ansible-role-xrdp/compare/v1.1.0...v1.2.0) (2026-07-26)
 
 
